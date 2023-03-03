@@ -1,0 +1,75 @@
+.wpfp-form-table .ms-options-wrap > .ms-options {
+    left: 0;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    background: white;
+    z-index: 2000;
+    border: 1px solid #aaa;
+    text-align:left;
+    padding: 10px 0px;
+}
+
+.wpfp-form-table .ms-options-wrap > .ms-options > .ms-search input {
+    padding: 4px 5px;
+    border: none;
+    border-bottom: 1px groove;
+    outline: none;
+}
+.wpfp-form-table .ms-options-wrap > .ms-options > ul 
+{
+    margin: 5px 0px 0px 0px;
+}
+.wpfp-form-table .ms-options-wrap > .ms-options > ul li
+{
+    list-style: none;
+    margin: 0;
+    line-height: 2;
+}
+
+.wpfp-form-table .ms-options-wrap > button:focus, .ms-options-wrap > button {
+    position: relative;
+    text-align: left;
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+    margin-top: 1px;
+    color: #32373c;
+    outline: none;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-decoration: none;
+    box-shadow: 0 0 0 transparent;
+    border-radius: 4px;
+    border: 1px solid #7e8993;
+}  
+
+.wpfp-form-table .ms-selectall.global {
+    padding-left: 10px;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.wpfp-invalid {  
+    color: #ff0000;
+    font-size: 14px;
+    line-height: 1.8;
+} 
+
+/* desktop screen */
+
+@media only screen and (min-width: 1024px) and (max-width: 1700px) {
+ .wpfp-form-table #wpfp_reset_days {
+        width: 45%;
+    }
+ .wpfp-form-table #wpfp_notification_message {
+        width: 45%;
+    }
+ .wpfp-form-table .ms-options-wrap > .ms-options {
+        width: 45%; 
+    }
+  .wpfp-form-table .ms-options-wrap > .ms-options > .ms-search input {
+        width: 45%;
+    }  
+  .wpfp-form-table .ms-options-wrap > button:focus, .ms-options-wrap > button {
+        width: 45%;
+    }
+} 
